@@ -6,7 +6,6 @@ function App() {
   const [text, setText] = useState('');
   const barcodeRef = useRef(null);
 
-  // Generate the barcode
   const handleGenerate = () => {
     if (text.trim() === '') {
       alert('Please enter something!');
@@ -22,13 +21,12 @@ function App() {
     });
   };
 
-  // Clear input and barcode
   const handleClear = () => {
     setText('');
-    barcodeRef.current.innerHTML = ''; // Clear SVG content
+    barcodeRef.current.innerHTML = ''; 
   };
 
-  // Download barcode as SVG
+
   const handleDownload = () => {
     const svg = barcodeRef.current;
     const svgData = new XMLSerializer().serializeToString(svg);
@@ -69,7 +67,6 @@ function App() {
         )}
       </div>
 
-      {/* Report issue floating button */}
       <a
         href="mailto:suryavikas1223@gmail.com?subject=Barcode Generator Issue Report&body=Describe the issue here..."
         className="report-button"
