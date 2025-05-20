@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/barcode-genrator/static/css/main.cf223fa3.css",
-    "main.js": "/barcode-genrator/static/js/main.2d782cb4.js",
+    "main.js": "/barcode-genrator/static/js/main.5463b086.js",
     "index.html": "/barcode-genrator/index.html",
     "main.cf223fa3.css.map": "/barcode-genrator/static/css/main.cf223fa3.css.map",
-    "main.2d782cb4.js.map": "/barcode-genrator/static/js/main.2d782cb4.js.map"
+    "main.5463b086.js.map": "/barcode-genrator/static/js/main.5463b086.js.map"
   },
   "entrypoints": [
     "static/css/main.cf223fa3.css",
-    "static/js/main.2d782cb4.js"
+    "static/js/main.5463b086.js"
   ]
 }
