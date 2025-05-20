@@ -10,7 +10,6 @@ body {
   align-items: center;
 }
 
-
 .app-container {
   font-family: 'Segoe UI', sans-serif;
   width: 100%;
@@ -26,7 +25,6 @@ h1 {
   margin-bottom: 20px;
   color: #1f2937;
 }
-
 
 input {
   width: 100%;
@@ -77,17 +75,17 @@ svg {
 }
 .container {
   display: flex;
-  justify-content: center; /* centers horizontally */
-  align-items: flex-end;   /* aligns to bottom vertically */
-  height: 200px;           /* example height, adjust as needed */
-  /* optionally add width if needed */
+  justify-content: center; 
+  align-items: flex-end;  
+  height: 200px;          
 }
 .jui {
   display: flex;
-  justify-content: center; /* horizontal center of text */
-  align-items: flex-end;   /* bottom vertical alignment */
-  height: 100px;           /* example */
+  justify-content: center;
+  align-items: flex-end;   
+  height: 100px;          
 }
+
 .report-button:hover {
   background: #b91c1c;
 }
